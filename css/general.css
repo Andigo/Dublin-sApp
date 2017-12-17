@@ -1,0 +1,370 @@
+@font-face {
+  font-family: FlareLightGothic;
+  /* Имя шрифта */
+  src: url(../fonts/flarelightgothicitalic.ttf);
+  /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: FreeportPlain;
+  /* Имя шрифта */
+  src: url(../fonts/freeport.ttf);
+  /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: "Franklin Gothic Book";
+  /* Имя шрифта */
+  src: url(../fonts/FRABK.TTF);
+  /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: Colaborate;
+  /* Имя шрифта */
+  src: url(../fonts/colaborate-light.ttf);
+  /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: ChunkFive;
+  /* Имя шрифта */
+  src: url(../fonts/chunkfive.ttf);
+  /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: AlexandriaFLF;
+  /* Имя шрифта */
+  src: url(../fonts/AlexandriaFLF.ttf);
+  /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: Colaborate Th;
+  /* Имя шрифта */
+  src: url(../fonts/colaborate-thin.ttf);
+  /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: Colaborate Md;
+  /* Имя шрифта */
+  src: url(../fonts/ColabMed.otf);
+  /* Путь к файлу со шрифтом */
+}
+.wrapper {
+  max-width: 1120px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 980px) {
+  .wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+body body,
+body div,
+body dl,
+body dt,
+body dd,
+body ul,
+body li,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body pre,
+body code,
+body form,
+body fieldset,
+body input,
+body textarea,
+body p,
+body blockquote,
+body th,
+body td {
+  margin: 0;
+  padding: 0;
+}
+body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body fieldset,
+body img,
+body abbr {
+  border: 0;
+}
+body address,
+body caption,
+body cite,
+body code,
+body dfn,
+body em,
+body strong,
+body th,
+body var {
+  font-style: normal;
+  font-weight: normal;
+}
+body ul li {
+  list-style: none;
+}
+body caption,
+body th {
+  text-align: left;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+body sup {
+  vertical-align: text-top;
+}
+body sub {
+  vertical-align: text-bottom;
+}
+body input,
+body textarea,
+body select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+body legend {
+  color: #000;
+}
+body article,
+body aside,
+body details,
+body figcaption,
+body figure,
+body footer,
+body header,
+body hgroup,
+body menu,
+body nav,
+body section,
+body main {
+  display: block;
+}
+body img {
+  max-width: 100%;
+  height: auto;
+}
+header {
+  height: auto;
+  background: url(../img/bg_blue.png) no-repeat center;
+}
+header .header {
+  min-height: 716px;
+}
+header .header-head {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -5px;
+  margin-right: -5px;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-right: 85px;
+  margin-bottom: 15px;
+}
+header .header-head-logo {
+  box-sizing: border-box;
+  margin-left: 5px;
+  margin-right: 5px;
+  word-wrap: break-word;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  text-decoration: none;
+}
+header .header-head-pic {
+  width: 37px;
+  height: 37px;
+  background: url(../img/logo-shape.png) no-repeat center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 5px;
+}
+header .header-head-pic p {
+  color: #1f1f31;
+  font-family: FreeportPlain;
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 52px;
+}
+header .header-head-text {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+header .header-head-text h1 {
+  color: #fff;
+  font-family: FlareLightGothic;
+  font-size: 39px;
+  font-weight: 400;
+}
+header .header-head-text span {
+  color: white;
+  font-family: "Franklin Gothic Book";
+  font-size: 17px;
+  font-weight: 400;
+}
+header .header-head-menu {
+  box-sizing: border-box;
+  margin-left: 5px;
+  margin-right: 5px;
+  word-wrap: break-word;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+header .header-head-menu li {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+}
+header .header-head-menu li:hover {
+  background: #d2d2d5;
+  opacity: 0.8;
+}
+header .header-head-menu li:hover a {
+  color: #161628;
+}
+header .header-head-menu li a {
+  text-decoration: none;
+  font-family: Colaborate;
+  font-size: 17px;
+  font-weight: 300;
+  /* Text style for "Home" */
+  color: #d7d7e3;
+}
+header .header-banner {
+  min-height: 314px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -5px;
+  margin-right: -5px;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+header .header-banner-txt {
+  padding-right: 40px;
+  padding-top: 50px;
+  text-align: right;
+  box-sizing: border-box;
+  margin-left: 5px;
+  margin-right: 5px;
+  word-wrap: break-word;
+}
+header .header-banner-txt h1 {
+  color: #e7e8ea;
+  font-family: ChunkFive;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 52px;
+  text-transform: uppercase;
+}
+header .header-banner-txt span {
+  color: #d7d7e3;
+  font-family: AlexandriaFLF;
+  font-size: 39px;
+  line-height: 52px;
+  /* Text style for "iPad" */
+  font-weight: 400;
+}
+header .header-banner-txt span strong {
+  font-weight: 700;
+}
+header .header-banner-txt p {
+  color: #e7e8ea;
+  font-family: Colaborate Th;
+  font-size: 23px;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+header .header-banner-txt button {
+  cursor: pointer;
+  width: 181px;
+  height: 45px;
+  background-image: linear-gradient(to top, #164182 0%, #2d6bc2 100%);
+  border: 1px solid #6e9ad8;
+  border-radius: 3px;
+  color: #fff;
+  font-family: Colaborate Md;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 23px;
+}
+header .header-banner-txt button:hover {
+  border: 1px solid #fff;
+}
+header .header-banner-txt button:active {
+  border: 1px solid red;
+}
+header .header-banner-txt-shadow {
+  margin-top: 15px;
+  width: 325px;
+  height: 24px;
+  opacity: 0.5;
+  background: url(../img/shadow_btn.png) no-repeat right;
+}
+header .header-banner-pic {
+  box-sizing: border-box;
+  margin-left: 5px;
+  margin-right: 5px;
+  word-wrap: break-word;
+  width: 470px;
+  height: auto;
+}
+header .header-banner-pic-ipads {
+  height: 315px;
+  background: url(../img/i-pad.png) no-repeat;
+}
+header .header-banner-pic-shadow {
+  height: 93px;
+  opacity: 0.5;
+  background: url(../img/ishadow.png) no-repeat;
+  margin-top: -25px;
+}
