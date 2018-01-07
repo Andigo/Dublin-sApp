@@ -73,6 +73,7 @@
 body {
   margin: 0;
   padding: 0;
+  background: #e7e8ea;
 }
 body body,
 body div,
@@ -176,7 +177,7 @@ header {
   background: url(../img/bg_blue.png) no-repeat center;
 }
 header .header {
-  min-height: 716px;
+  min-height: 650px;
   position: relative;
 }
 header .header-btn {
@@ -478,4 +479,57 @@ header .header-boxes-pic3 {
 header .header-boxes-pic4 {
   min-height: 120px;
   background: url(../img/brick-1.png) no-repeat center;
+}
+.infpanel {
+  min-height: 185px;
+}
+.infpanel-content {
+  min-height: 185px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.infpanel-content-panel {
+  box-sizing: border-box;
+  margin-left: 5px;
+  margin-right: 5px;
+  word-wrap: break-word;
+  min-height: 185px;
+  width: calc(33.333333333333336% - 10px);
+}
+.panel {
+  box-sizing: border-box;
+  padding: 40px 15px 5px 15px;
+}
+.panel-info {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.panel-info img {
+  width: 33px;
+  height: 33px;
+  margin-right: 10px;
+  margin-top: -5px;
+}
+.panel-info-txt {
+  margin-bottom: 20px;
+}
+.panel-info-txt h2 {
+  color: #505050;
+  font-family: Colaborate;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 15px;
+}
+.panel-info-txt span {
+  color: #5f7390;
+  font-family: Colaborate;
+  font-size: 14px;
+  font-weight: 300;
 }
