@@ -46,6 +46,12 @@
   src: url(../fonts/ColabMed.otf);
   /* Путь к файлу со шрифтом */
 }
+@font-face {
+  font-family: Contra;
+  /* Имя шрифта */
+  src: url(../fonts/Contra.ttf);
+  /* Путь к файлу со шрифтом */
+}
 .wrapper {
   max-width: 1120px;
   padding-left: 60px;
@@ -532,4 +538,51 @@ header .header-boxes-pic4 {
   font-family: Colaborate;
   font-size: 14px;
   font-weight: 300;
+}
+.banner {
+  min-height: 80px;
+}
+.banner-wr {
+  width: 100%;
+  min-height: 78px;
+  background: radial-gradient(#ecedef, #e7e8ea);
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.banner-wr span {
+  width: 550px;
+  font-family: Contra;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  /* Text style for "Lorem Ipsum is" */
+  color: #828181;
+}
+.banner-wr span strong {
+  color: #687b96;
+}
+.banner-wr-left {
+  cursor: pointer;
+  width: 24px;
+  height: 27px;
+  background: url(../img/left-arrow.png) no-repeat center;
+}
+.banner-wr-right {
+  cursor: pointer;
+  width: 24px;
+  height: 27px;
+  background: url(../img/right-arrow.png) no-repeat center;
+}
+.banner-line {
+  height: 1px;
+  background: radial-gradient(#dcdddf, #e7e8ea);
 }
