@@ -691,6 +691,7 @@ header .header-boxes-pic4 {
 }
 .footer-forms-news {
   width: 343px;
+  margin-left: 45px;
 }
 .footer-forms-news h1 {
   color: #fff;
@@ -782,4 +783,56 @@ header .header-boxes-pic4 {
   display: flex;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  min-height: 50px;
+}
+.footer-last-social {
+  margin-top: -10px;
+  margin-left: 40px;
+  width: 175px;
+  height: 45px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.footer-last-social-twi {
+  background: #464659 url(../img/Layer-60.png) no-repeat center;
+}
+.footer-last-social-fb {
+  background: #464659 url(../img/Layer-64.png) no-repeat center;
+}
+.footer-last-social-in {
+  background: #464659 url(../img/Layer-65.png) no-repeat center;
+}
+.footer-last-txt {
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  opacity: 0.55;
+  color: #fff;
+  font-family: Colaborate;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+.footer-last-btn {
+  /* Style for "submit_bg" */
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  width: 85px;
+  height: 27px;
+  background-color: #e7e8ea;
+  border-radius: 7px;
+  color: #363648;
+  font-family: Colaborate;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.soc-rnd {
+  width: 45px;
+  height: 45px;
+  border-radius: 25px;
 }
