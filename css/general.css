@@ -654,6 +654,11 @@ header .header-boxes-pic4 {
   background: #e7e8ea url(../img/titter-icon.png) no-repeat center;
   margin-right: 35px;
 }
+@media screen and (max-width: 980px) {
+  .footer-twi-pic {
+    display: none;
+  }
+}
 .footer-twi-txt {
   display: -ms-flexbox;
   display: flex;
@@ -688,6 +693,18 @@ header .header-boxes-pic4 {
   margin-right: -5px;
   -ms-flex-pack: justify;
   justify-content: space-between;
+}
+@media screen and (max-width: 640px) {
+  .footer-forms {
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 640px) {
+  .footer-forms {
+    -ms-flex-align: center;
+    align-items: center;
+  }
 }
 .footer-forms-news {
   width: 343px;
