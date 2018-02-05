@@ -433,11 +433,16 @@ header .header-boxes-pic4 {
   display: -ms-flexbox;
   display: flex;
 }
+@media screen and (max-width: 640px) {
+  .panel-info {
+    display: block;
+  }
+}
 .panel-info img {
   width: 33px;
   height: 33px;
   margin-right: 10px;
-  margin-top: -5px;
+  margin-top: 15px;
 }
 .panel-info-txt {
   margin-bottom: 20px;
@@ -567,6 +572,12 @@ header .header-boxes-pic4 {
   cursor: pointer;
   height: 30px;
 }
+@media screen and (max-width: 640px) {
+  .variat-content-item {
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
 .variat-content-item p {
   color: #828181;
   font-family: Colaborate;
@@ -574,12 +585,29 @@ header .header-boxes-pic4 {
   font-weight: 300;
   margin-left: 10px;
 }
+@media screen and (max-width: 640px) {
+  .variat-content-item p {
+    font-size: 20px;
+  }
+}
 .variat-content-item img {
   width: 14px;
   height: 14px;
 }
 .variat-content-btns {
   padding-top: 30px;
+}
+@media screen and (max-width: 640px) {
+  .variat-content-btns {
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+@media screen and (max-width: 640px) {
+  .variat-content-btns {
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
 }
 .variat-content-btns button {
   width: 130px;
@@ -650,7 +678,7 @@ header .header-boxes-pic4 {
 .footer-twi-pic {
   width: 85px;
   height: 65px;
-  border-radius: 45px;
+  border-radius: 35px;
   background: #e7e8ea url(../img/titter-icon.png) no-repeat center;
   margin-right: 35px;
 }
@@ -802,6 +830,23 @@ header .header-boxes-pic4 {
   justify-content: space-between;
   min-height: 50px;
 }
+@media screen and (max-width: 640px) {
+  .footer-last {
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .footer-last {
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 640px) {
+  .footer-last {
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
 .footer-last-social {
   margin-top: -10px;
   margin-left: 40px;
@@ -811,6 +856,18 @@ header .header-boxes-pic4 {
   display: flex;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  -ms-flex-order: 1;
+  order: 1;
+}
+@media screen and (max-width: 640px) {
+  .footer-last-social {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 640px) {
+  .footer-last-social {
+    margin: 10px;
+  }
 }
 .footer-last-social-twi {
   background: #464659 url(../img/Layer-60.png) no-repeat center;
@@ -831,6 +888,8 @@ header .header-boxes-pic4 {
   font-size: 14px;
   font-weight: 300;
   line-height: 20px;
+  -ms-flex-order: 2;
+  order: 2;
 }
 .footer-last-btn {
   /* Style for "submit_bg" */
@@ -847,6 +906,21 @@ header .header-boxes-pic4 {
   line-height: 20px;
   margin-bottom: 10px;
   cursor: pointer;
+  -ms-flex-order: 3;
+  order: 3;
+}
+@media screen and (max-width: 640px) {
+  .footer-last-btn {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+}
+@media screen and (max-width: 640px) {
+  .footer-last-btn {
+    -ms-flex-order: 0;
+    order: 0;
+  }
 }
 .soc-rnd {
   width: 45px;
